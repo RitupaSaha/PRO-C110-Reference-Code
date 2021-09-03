@@ -34,7 +34,7 @@ while True:
             
     key = cv2.waitKey(1)
 
-    if key == ord('q'):
+    if key == 32:
         print("Closing")
         break
 
